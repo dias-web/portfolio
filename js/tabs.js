@@ -18,7 +18,6 @@ tabButtons.forEach((tabButton, index) => {
   tabButton.addEventListener("click", (e) => {
     const dataValue = tabButton.dataset.tabsHandler;
 
-    //отображение и скрытие блока лого
     logo.forEach((view, indexView) => {
       if (index === indexView) {
         view.classList.remove("hidden");
